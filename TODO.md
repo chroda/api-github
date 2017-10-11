@@ -3,8 +3,8 @@
 ## Descrição:
 
 - [ ] O sistema deve ter uma página listando os repositórios do candidato (você);
-- [ ] O sistema deve ter uma página com um campo de busca, listando repositórios públicos filtrados pelo nome do repositório utilizando o termo informado.
-- [ ] A listagem de repositórios deve exibir o usuário (owner), o nome do repositório, a linguagem, o número de forks/stars.
+- [x] O sistema deve ter uma página com um campo de busca, listando repositórios públicos filtrados pelo nome do repositório utilizando o termo informado.
+- [x] A listagem de repositórios deve exibir o usuário (owner), o nome do repositório, a linguagem, o número de forks/stars.
 - [x] Os dados devem ser obtidos usando a API pública do Github
 - [x] O framework utilizado deve ser o Angular
 
