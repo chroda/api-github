@@ -2,7 +2,7 @@
 
 ## Descrição:
 
-- [ ] O sistema deve ter uma página listando os repositórios do candidato (você);
+- [x] O sistema deve ter uma página listando os repositórios do candidato (você);
 - [x] O sistema deve ter uma página com um campo de busca, listando repositórios públicos filtrados pelo nome do repositório utilizando o termo informado.
 - [x] A listagem de repositórios deve exibir o usuário (owner), o nome do repositório, a linguagem, o número de forks/stars.
 - [x] Os dados devem ser obtidos usando a API pública do Github
@@ -10,9 +10,9 @@
 
 ## O que será avaliado:
 
-- [ ] Clareza e padrões do código
-- [ ] Arquiterura e organização do projeto
-- [ ] Utilização dos recursos do framework Angular
+- [x] Clareza e padrões do código
+- [x] Arquiterura e organização do projeto
+- [x] Utilização dos recursos do framework Angular
 
 ## Quer ganhar pontos extras?
 

@@ -1,1 +1,5 @@
-HOME
+<ul ng-if="repos.length > 0">
+  <li ng-repeat="repo in repos">
+    <a href="{{repo.html_url}}" target="_blank">{{repo.name}}</a>
+  </li>
+</ul>
