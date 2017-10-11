@@ -1,5 +1,7 @@
-<ul ng-if="repos.length > 0">
-  <li ng-repeat="repo in repos">
-    <a href="{{repo.html_url}}" target="_blank">{{repo.name}}</a>
-  </li>
-</ul>
+<div class="jumbotron">
+  <h1>My repositories</h1>
+  <br />
+  <div ng-if="repos.length > 0" class="list-group">
+    <a ng-repeat="repo in repos" href="{{repo.html_url}}" target="_blank" class="list-group-item list-group-item-action list-group-item-secondary">{{repo.name}}</a>
+  </div>
+</div>
