@@ -1,0 +1,15 @@
+{
+  "name": "api-github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chroda/api-github.git"
+  },
+  "author": "Christian Maracell (chroda)",
+  "bugs": {
+    "url": "https://github.com/chroda/api-github/issues"
+  },
+  "homepage": "https://github.com/chroda/api-github#readme"
+}

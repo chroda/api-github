@@ -1,0 +1,28 @@
+<form name="searchForm">
+  <input
+    type="text"
+    ng-model="repositorie"
+    ng-keyup="$event.keyCode === 13 && searchRepositorie(repositorie)"
+    name="name"
+    placeholder="Type some repositorie"
+    ng-required="true"
+    ng-minlength="1"
+  />
+  <button type="submit" ng-click="searchRepositorie(repositorie)">Search</button>
+</form>
+<table ng-if="repos.length > 0">
+  <tr>
+    <th>Owner</th>
+    <th>Repositorie Name</th>
+    <th>Language</th>
+    <th>Forks</th>
+    <th>Stars</th>
+  </tr>
+  <tr ng-repeat="repo in repos">
+    <td><img ng-src="{{repo.owner.avatar_url}}" height="20px" />{{repo.owner.login}}</td>
+    <td><a href="{{repo.html_url}}" target="_blank">{{repo.name}}</a></td>
+    <td>{{repo.language}}</td>
+    <td>{{repo.forks_count}}</a></td>
+    <td>{{repo.stargazers_count}}</a></td>
+  </tr>
+</table>
